@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()){
 
 # To compute the inverse of the special matrix
 # Argument parameter: Matrix, Output: Inverse Matrix
-cachemean <- function(x, ...){
+cacheSolve <- function(x, ...){
     # Initialize a matrix that is the inverse of x matrix
     m <- x$getinverse()
     
